@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Removal -->
+ <remove-project name="android_frameworks_av" />
+
+ <!-- Device Trees -->
+ <project path="device/redmi/begonia" name="SHADOW-REX/android_device_redmi_begonia" remote="github" revision="superior" />
+
+ <project path="vendor/redmi/begonia" name="SHADOW-REX/android_vendor_redmi_begonia" remote="github" revision="13" />
+
+ <project path="kernel/xiaomi/mt6785" name="Nova-Kernels/kernel_xiaomi_mt6785" remote="github" revision="nova" />
+
+ <!-- Extras -->
+ <project path="vendor/redmi/begonia-ims" name="SHADOW-REX/android_vendor_redmi_begonia-ims" remote="github" revision="13" />
+
+ <project path="vendor/redmi/begonia-firmware" name="SHADOW-REX/android_vendor_redmi_begonia-firmware" remote="github" revision="13" />
+
+ <project path="android/packages/apps/RevampedFMRadio" name="SHADOW-REX/android_packages_apps_RevampedFMRadio" remote="github" revision="13" />
+
+ <project path="prebuilts/clang/host/linux-x86/clang-azure" name="Panchajanya1999/azure-clang" remote="gitlab" revision="main" />
+
+ <!-- Depends -->
+ <project path="device/mediatek/sepolicy" name="SHADOW-REX/android_device_mediatek_sepolicy" remote="github" revision="13" />
+
+ <project path="hardware/mediatek" name="SHADOW-REX/android_hardware_mediatek" remote="github" revision="13" />
+
+ <!-- Cherry Picks -->
+ <project path="frameworks/av" name="SHADOW-REX/android_frameworks_av" remote="github" revision="thirteen" />
+
+</manifest>
