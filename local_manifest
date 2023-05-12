@@ -4,6 +4,8 @@
  <!-- Removal -->
  <remove-project name="android_frameworks_av" />
 
+ <remove-project name="android_device_mediatek_sepolicy" />
+
  <!-- Device Trees -->
  <project path="device/redmi/begonia" name="SHADOW-REX/android_device_redmi_begonia" remote="github" revision="superior" />
 
